@@ -1,26 +1,26 @@
 import { ReactNode } from "react";
 
-interface ContainerProps {
+interface SectionProps {
+  id?: string;
   children: ReactNode;
   className?: string;
 }
 
-export default function Container({
+export default function Section({
+  id,
   children,
   className = "",
-}: ContainerProps) {
+}: SectionProps) {
   return (
-    <div
+    <section
+      id={id}
       className={`
-        mx-auto
-        w-full
-        max-w-7xl
-        px-6
-        lg:px-8
+        py-28
+        lg:py-36
         ${className}
       `}
     >
       {children}
-    </div>
+    </section>
   );
 }

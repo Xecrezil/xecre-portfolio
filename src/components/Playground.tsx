@@ -1,10 +1,14 @@
 import GlassCard from "./ui/GlassCard";
 import SectionTitle from "./ui/SectionTitle";
 import Badge from "./ui/Badge";
+import Section from "./ui/Section";
+import Container from "./ui/Container";
+import Divider from "./ui/Divider";
 
 export default function Playground() {
   return (
-    <section className="section">
+    <Section>
+      <Container>
 
       <SectionTitle
         eyebrow="Components"
@@ -13,6 +17,7 @@ export default function Playground() {
       />
 
       <GlassCard className="space-y-4">
+        <Divider />
 
         <h3 className="text-2xl font-semibold">
           Glass Card
@@ -39,7 +44,7 @@ export default function Playground() {
         </div>
 
       </GlassCard>
-
-    </section>
+        </Container>
+    </Section>
   );
 }
