@@ -1,0 +1,31 @@
+:root {
+  /* ========= Colors ========= */
+
+  --background: #050816;
+  --surface: #0B1023;
+  --card: rgba(255,255,255,.05);
+
+  --primary: #5DA9FF;
+  --primary-soft: #A7D8FF;
+
+  --text: #F5F7FF;
+  --muted: #9BA7C7;
+
+  --border: rgba(255,255,255,.08);
+
+  /* ========= Radius ========= */
+
+  --radius-sm: 12px;
+  --radius-md: 20px;
+  --radius-lg: 32px;
+
+  /* ========= Shadows ========= */
+
+  --shadow-glow: 0 0 40px rgba(93,169,255,.18);
+
+  /* ========= Motion ========= */
+
+  --transition-fast: .2s ease;
+  --transition-normal: .35s ease;
+  --transition-slow: .6s ease;
+}
