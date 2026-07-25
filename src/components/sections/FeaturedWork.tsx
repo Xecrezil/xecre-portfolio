@@ -14,27 +14,22 @@ export default function FeaturedWork() {
         />
         <div className="max-w-4xl">
 
-          <ProjectCard
-            title="HOMES"
-            subtitle="Subdivision Information System with OCR Vehicle Recognition"
-            description="Designed to streamline homeowner management, visitor access, amenity reservations, and gate security into one unified platform."
-            tags={[
-              "Laravel",
-              "PHP",
-              "MySQL",
-              "OCR",
-              "UI/UX",
-            ]}
-          />
-          <ProjectCard
-            title="Barkive"
-            subtitle="Lost & Found Platform"
-            description="..."
-            tags={[
-                "Next.js",
-                "Firebase",
-                "Tailwind",
-            ]}
+            <ProjectCard
+                title="Nexus"
+                subtitle="Academic Research & Capstone Management Platform"
+                summary="Transforming institutional knowledge into a searchable ecosystem that helps students discover prior work, refine proposals, and build upon ideas instead of unknowingly repeating them."
+                roles={[
+                    "Systems Analysis",
+                    "Product Design",
+                    "Full Stack Development",
+                ]}
+                technologies={[
+                    "Next.js",
+                    "Laravel",
+                    "PostgreSQL",
+                    "UX",
+                ]}
+                href="/projects/nexus"
             />
                     
 
