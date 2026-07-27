@@ -1,100 +1,55 @@
-# Xecre Brand Manifesto
+# Xecre Brand Guide
 
-## Who is Xecre?
-
-Xecre is the intersection of technology, leadership, and reflection.
-
-It represents someone who enjoys building systems, organizing ideas,
-and creating meaningful digital experiences with intention.
-
----
-
-## Mission
-
-Design technology that feels thoughtful.
-
-Not everything has to be louder.
-Not everything has to move faster.
-
-The best experiences often help people think more clearly.
-
----
-
-## Personality
-
-Calm.
-
-Curious.
-
-Intentional.
-
-Sophisticated.
-
-Reflective.
-
-Reliable.
-
----
-
-## Visual Identity
-
-Primary Symbol
-Blue Morpho Butterfly
-
-Environment
-Night Sky
-
-Motifs
-Stars
-Constellations
-Light
-Silence
-Motion
-
----
-
-## Design Principles
-
-Every visual element should reinforce the story,
-never compete with it.
-
-Whitespace is a feature.
-
-Animation should guide attention,
-not demand it.
-
-Technology exists to reduce complexity.
-
----
-
-## Visitor Journey
+## Identity
 
 Who is Xecre?
 
-↓
+## Mission
 
-What has Xecre built?
+Why does Xecre exist?
 
-↓
+## Design Philosophy
 
-How does Xecre think?
+Minimal
+Intentional
+Elegant
+Story-first
 
-↓
+## Visual Identity
 
-Can Xecre lead?
+Blue Morpho Butterfly
 
-↓
+Night Sky
 
-Let's build something together.
+Glassmorphism
 
----
+Soft Motion
 
-## Emotional Goal
+## Naming Philosophy
 
-Visitors should leave thinking:
+Short memorable names.
 
-"This person is thoughtful."
+Meaning before style.
 
-Not
+The letter "X" may appear naturally as a subtle signature, but should never be forced.
 
-"This website has cool animations."
+## Portfolio Philosophy
+
+Projects first.
+
+Leadership second.
+
+Thoughts third.
+
+70% Projects
+30% Leadership + Observatory
+
+## Tone of Voice
+
+Thoughtful
+
+Curious
+
+Architectural
+
+Purpose-driven

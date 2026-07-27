@@ -23,7 +23,7 @@ interface ProjectCardProps {
     roles,
     technologies,
     href,
-    featured = false,
+  
     }: ProjectCardProps) {
     return (
         <GlassCard className="space-y-6">
