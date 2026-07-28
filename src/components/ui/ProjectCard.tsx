@@ -8,7 +8,10 @@ interface ProjectCardProps {
   subtitle: string;
   summary: string;
 
+  status: string;
+
   roles: string[];
+
   technologies: string[];
 
   href: string;
@@ -20,6 +23,7 @@ interface ProjectCardProps {
     title,
     subtitle,
     summary,
+    status,
     roles,
     technologies,
     href,
@@ -38,16 +42,21 @@ interface ProjectCardProps {
             </p>
         </div>
 
+        <div className="mt-4 inline-flex items-center gap-2 rounded-full border border-[var(--border)] bg-white/5 px-3 py-1 text-sm">
+            <span className="h-2 w-2 rounded-full bg-[var(--primary)]" />
+            <span>{status}</span>
+        </div>
+
         <p className="leading-8 text-[var(--muted)]">
             {summary}
         </p>
 
-        <div className="space-y-4">
+        <div className="space-y-6">
 
             <div>
-                <p className="mb-2 text-sm uppercase tracking-wider text-[var(--muted)]">
-                My Role
-                </p>
+                <h4 className="mb-3 text-sm uppercase tracking-wider text-[var(--muted)]">
+                Roles
+                </h4>
 
                 <div className="flex flex-wrap gap-2">
                 {roles.map((role) => (
@@ -59,9 +68,9 @@ interface ProjectCardProps {
             </div>
 
             <div>
-                <p className="mb-2 text-sm uppercase tracking-wider text-[var(--muted)]">
-                Technology
-                </p>
+                <h4 className="mb-3 text-sm uppercase tracking-wider text-[var(--muted)]">
+                Technologies
+                </h4>
 
                         <div className="flex flex-wrap gap-2">
                         {technologies.map((tech) => (
@@ -73,18 +82,13 @@ interface ProjectCardProps {
             </div>
 
         </div>
-        <div className="flex justify-end pt-2">
+
+        <div className="pt-4">
             <Link
                 href={href}
-                className="
-                text-sm
-                font-medium
-                text-[var(--primary)]
-                transition-colors
-                hover:text-white
-                "
+                className="inline-flex items-center text-[var(--primary)] transition hover:translate-x-1"
             >
-                Read Case Study →
+                View Case Study →
             </Link>
         </div>
     </GlassCard>
