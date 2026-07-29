@@ -74,14 +74,14 @@ export default function Navbar() {
 
             <li>
               <a
-                href="#Thoughts"
+                href="#observatory"
                 className="
                     transition-colors
                     duration-300
                     hover:text-[var(--primary)]
                 "
                 >
-            Thoughts
+            Observatory
             </a>
             </li>
 

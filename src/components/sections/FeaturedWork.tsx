@@ -32,12 +32,13 @@ export default function FeaturedWork() {
               </p>
 
             </div>
+            <div className="my-12 h-px bg-gradient-to-r from-transparent via-[var(--border)] to-transparent" />
 
             <div className="mt-16">
               <ProjectCard
                   title="Nexus"
                   subtitle="Academic Research & Capstone Management Platform"
-                  summary="Transforming institutional knowledge into a searchable ecosystem that helps students discover prior work, refine proposals, and build upon ideas instead of unknowingly repeating them."
+                  summary="Nexus is a university-wide academic lifecycle platform designed to transform the way higher education institutions manage, develop, preserve, and continuously build upon student-led research and capstone projects."
                   status="Product Discovery Complete"
                   roles={[
                       "Systems Analysis",

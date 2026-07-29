@@ -42,7 +42,7 @@ interface ProjectCardProps {
             </p>
         </div>
 
-        <div className="mt-4 inline-flex items-center gap-2 rounded-full border border-[var(--border)] bg-white/5 px-3 py-1 text-sm">
+        <div className="mt-4 inline-flex items-center gap-2 rounded-full border  border-[var(--primary)]/20 bg-[var(--primary)]/10  px-3 py-1 text-sm text-[var(--primary)]">
             <span className="h-2 w-2 rounded-full bg-[var(--primary)]" />
             <span>{status}</span>
         </div>
@@ -86,9 +86,10 @@ interface ProjectCardProps {
         <div className="pt-4">
             <Link
                 href={href}
-                className="inline-flex items-center text-[var(--primary)] transition hover:translate-x-1"
+                className="inline-flex items-center gap-2 font-medium text-[var(--primary)] transition duration-300 hover:gap-3"
             >
-                View Case Study →
+                View Case Study 
+                <span>→</span>
             </Link>
         </div>
     </GlassCard>
