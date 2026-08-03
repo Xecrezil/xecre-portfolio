@@ -1,9 +1,16 @@
-export default function NexusCaseStudy() {
+import NexusHero from "./NexusHero";
+import Background from "@/components/background/Background";
+import ExecutiveSummary from "./ExecutiveSummary";
+import Origin from "./Origin";
+import ProductVision from "./ProductVision";
+import CurrentStatus from "./CurrentStatus";
+
+export default function NexusPage() {
   return (
-    <main className="min-h-screen flex items-center justify-center">
-      <h1 className="text-5xl font-bold">
-        Nexus Case Study
-      </h1>
-    </main>
+    <>
+      <Background />
+      <NexusHero />
+      
+    </>
   );
 }
