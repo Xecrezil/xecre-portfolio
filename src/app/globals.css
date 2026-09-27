@@ -42,3 +42,17 @@ body {
   margin: auto;
   padding: 8rem 2rem;
 }
+
+:root {
+  --primary: #7dd3fc;
+  --background: #05070a;
+  --foreground: #f8fafc;
+  --muted: #94a3b8;
+}
+
+.identity-bazil {
+  --primary: #6ee7b7;
+  --background: #030a08;
+  --foreground: #ecfdf5;
+  --muted: #94a3b8;
+}
